@@ -17,6 +17,12 @@ cd ACJ_ML_-_ishowspeed_junior
 Для установки всех необходимых библиотек можно воспользоваться файлом requirements.txt:
 
 ```
+pip intsall -r requirements.txt
+```
+###Запуск кода
+
+
+```
 python ML_IshowSpeed_junior.py
 ```
 
