@@ -12,7 +12,7 @@ import shap
 
 
 # read csv
-df = pd.read_csv('dataset_rina.csv')
+df = pd.read_csv('dataset_main.csv')
 
 # convert date columns to datetime format
 df['client_start_date'] = pd.to_datetime(df['client_start_date'])
