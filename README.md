@@ -9,6 +9,7 @@
 
 ```
 git clone https://github.com/maximaxi-a11y/ACJ_ML_-_ishowspeed_junior.git
+cd ACJ_ML_-_ishowspeed_junior
 ```
 
 ### Установка необходимых библиотек
