@@ -5,3 +5,5 @@ xgboost
 matplotlib
 shap
 tsfresh
+sklearn
+scikit-learn
