@@ -235,12 +235,6 @@ for iter in params_grid['iterations']:
           avg_cv_score = cv_scores.mean()
           print(f'Average ROC-AUC across 5 folds: {avg_cv_score}')
 
-
-
-shap_values = model.get_feature_importance(Pool(X_test, label=y_test), type="ShapValues")
-shap_values = shap_values[:,:-1]
-shap.summary_plot(shap_values, X_test)
-
 X_subm = X_submit.drop(columns=['partner_id', 'month', 'target'])
 
 model = CatBoostClassifier(**params)
